@@ -1,0 +1,10 @@
+/***********************
+Seletor Universal */
+* {
+    border: 1px solid red
+}
+
+/******* Seletor de texto ****/
+ h1 {
+     color: green;
+ }

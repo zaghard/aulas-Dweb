@@ -16,7 +16,7 @@
      height: 40px;
      border: 1px solid red;
      display: block;
-     background: url(../img/menu.png) no-repeat left bottom;
+     background:#f7b600 url(../img/menu.png) no-repeat left bottom;
      color:#000;
      text-decoration: none;
      text-indent:40px;
@@ -26,7 +26,8 @@
  }
 
 
- a:hover {
+ a:hover, .selecionado a {
      background-position: right bottom;
+     background-color:#f99200;
      color:#fff;
  }

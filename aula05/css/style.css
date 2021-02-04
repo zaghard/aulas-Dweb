@@ -1,33 +1,43 @@
 /****** Barra de navegação Lateral**/
- ul {
-     
-     list-style-type:none;
-     margin: 0;
-     padding: 0;
- }
+ul {
 
- li {
-     padding:  5px 20px;
-     background: url(../img/seta.png) no-repeat left center;
- }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
- ul a{
-     width: 200px;
-     height: 40px;
-     border: 1px solid red;
-     display: block;
-     background:#f7b600 url(../img/menu.png) no-repeat left bottom;
-     color:#000;
-     text-decoration: none;
-     text-indent:40px;
-     line-height: 40px;
+li {
+    padding: 5px 20px;
+    background: url(../img/seta.png) no-repeat left center;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    display: block;
+    background: #f7b600 url(../img/menu.png) no-repeat left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+
+}
 
 
- }
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
 
+#home .home a,
+#sobre .sobre a,
+#noticias .noticias a,
+#contato .contato a,
+#servicos .servicos a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
 
- a:hover, .selecionado a {
-     background-position: right bottom;
-     background-color:#f99200;
-     color:#fff;
- }
+}
